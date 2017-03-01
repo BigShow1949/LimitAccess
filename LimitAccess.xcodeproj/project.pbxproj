@@ -13,6 +13,8 @@
 		182D18571E66B58500E9606C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182D18551E66B58500E9606C /* Main.storyboard */; };
 		182D18591E66B58500E9606C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182D18581E66B58500E9606C /* Assets.xcassets */; };
 		182D185C1E66B58500E9606C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182D185A1E66B58500E9606C /* LaunchScreen.storyboard */; };
+		182D186C1E66C14D00E9606C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D186B1E66C14D00E9606C /* User.m */; };
+		182D186E1E66C22A00E9606C /* userInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182D186D1E66C22A00E9606C /* userInfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		182D18581E66B58500E9606C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182D185B1E66B58500E9606C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182D185D1E66B58500E9606C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182D186A1E66C14D00E9606C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		182D186B1E66C14D00E9606C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		182D186D1E66C22A00E9606C /* userInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = userInfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,8 @@
 		182D184B1E66B58500E9606C /* LimitAccess */ = {
 			isa = PBXGroup;
 			children = (
+				182D186A1E66C14D00E9606C /* User.h */,
+				182D186B1E66C14D00E9606C /* User.m */,
 				182D184F1E66B58500E9606C /* AppDelegate.h */,
 				182D18501E66B58500E9606C /* AppDelegate.m */,
 				182D18521E66B58500E9606C /* ViewController.h */,
@@ -67,6 +74,7 @@
 				182D185A1E66B58500E9606C /* LaunchScreen.storyboard */,
 				182D185D1E66B58500E9606C /* Info.plist */,
 				182D184C1E66B58500E9606C /* Supporting Files */,
+				182D186D1E66C22A00E9606C /* userInfo.plist */,
 			);
 			path = LimitAccess;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 				182D185C1E66B58500E9606C /* LaunchScreen.storyboard in Resources */,
 				182D18591E66B58500E9606C /* Assets.xcassets in Resources */,
 				182D18571E66B58500E9606C /* Main.storyboard in Resources */,
+				182D186E1E66C22A00E9606C /* userInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182D186C1E66C14D00E9606C /* User.m in Sources */,
 				182D18541E66B58500E9606C /* ViewController.m in Sources */,
 				182D18511E66B58500E9606C /* AppDelegate.m in Sources */,
 				182D184E1E66B58500E9606C /* main.m in Sources */,
